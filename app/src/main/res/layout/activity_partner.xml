@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <include
+        android:id="@+id/id_partner_top"
+        layout="@layout/activity_c2ctop" />
+
+    <LinearLayout
+        android:id="@+id/id_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/id_btn_apply"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@drawable/partner_apply_btn"
+            android:text="提交申请"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/id_bottom"
+        android:layout_below="@id/id_partner_top"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#CCCCCC"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="用户类型"
+            android:textSize="14sp" />
+
+        <ListView
+            android:id="@+id/id_list_partner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:divider="#CCCCCC"
+            android:dividerHeight="0.5dp"
+            android:listSelector="@android:color/transparent" >
+        </ListView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#CCCCCC" />
+    </LinearLayout>
+
+</RelativeLayout>

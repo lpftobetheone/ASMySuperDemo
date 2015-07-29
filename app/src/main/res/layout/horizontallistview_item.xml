@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:gravity="center"
+    android:clickable="true"
+    android:background="@drawable/selector_horizontal_listview_item_background">
+
+    <ImageView
+        android:id="@+id/id_star_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/default_img2" />
+
+    <TextView
+        android:id="@+id/id_star_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#919191"
+        android:ellipsize="end"
+        android:singleLine="true"/>
+</LinearLayout>

@@ -1,0 +1,43 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" id="viewport" name="viewport">
+<title>页面调用原生</title>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<!-- head -->
+<header>
+    <a href="javascript:ToPrev()" class="go-back"><h1>返回</h1></a>
+</header>
+
+<script type="text/javascript">
+		function ToPrev() {
+		    try {
+		        //alert('调用android开始');
+		        window.HomeIntent.goBack();
+		        //alert('调用android结束');
+		    } catch (err) {
+		        //alert('调用ios开始');
+		        document.location = "test:commodityDetailReturn";
+		        //alert('调用ios结束');
+		    }
+		}
+
+		function ToHome() {
+		    try {
+		        //alert('调用android开始');
+		        window.HomeIntent.goHome();
+		        //alert('调用android结束');
+		    } catch (err) {
+		        //alert('调用ios开始');
+		        document.location = "test:poptoroot";
+		        //alert('调用ios结束');
+		    }
+		}
+</script>
+
+
+</body>
+</html>

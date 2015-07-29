@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.lenovo.lenovomall.view.ClearEditText android:id="@+id/etUserName" 
+        android:layout_width="fill_parent" 
+        android:layout_height="30dip" 
+        android:background="@null" 
+        android:drawablePadding="7dip" 
+        android:hint="输入搜索内容" 
+        android:singleLine="true" 
+        android:textSize="17sp">
+        <requestFocus />
+    </com.lenovo.lenovomall.view.ClearEditText>
+
+</selector>

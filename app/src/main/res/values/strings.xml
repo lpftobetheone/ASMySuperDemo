@@ -1,6 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AsMySuperDemo</string>
 
+    <string name="app_name">MySuperDemo</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="my_super_demo">My Super Demo</string>
+    <string name="response_edit_text">输入要返回的数据</string>
+    <string name="btn_request_data">请求数据</string>
+    <string name="btn_response_data">返回数据</string>
+    <string name="edit_text_cannot_empty">输入不能为空</string>
+    <string name="netstate_change_textview">网络状态</string>
+    
+    <string name="search_back">search_back</string>
+    <string name="et_search">输入要搜索的内容</string>
+    <string name="imagebutton">imagebutton</string>
+    <string name="lastsearch">最近搜索</string>
+    <string name="hotsearch">热门搜索</string>
+    <string name="historysearch">历史搜索</string>
+    <string name="imageview">imageview</string>
+    <string name="search_is_null">搜索内容不能空</string>
+    <string name="clearHistory">清除记录</string>
+    <string name="custom_delete_edittext">自定义输入内容框</string>
+
 </resources>

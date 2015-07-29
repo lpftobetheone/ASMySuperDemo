@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/red" >
+
+    <LinearLayout
+        android:id="@+id/id_c2c_back"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/top_back_click"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/c2c_top_back"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@null"
+            android:clickable="false"
+            android:src="@drawable/arrows_back" >
+        </ImageButton>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/c2c_top_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="标题"
+        android:textColor="@color/white"
+        android:textSize="18sp" >
+    </TextView>
+
+</RelativeLayout>

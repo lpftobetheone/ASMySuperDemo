@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/ll_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/dark_gray" >
+
+        <!-- <View
+            android:id="@+id/menu_line"
+            style="@style/lineStyleHorizontal" /> -->
+
+        
+        <RadioGroup
+            android:id="@+id/menu_group"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingTop="0dp" >
+
+            <RadioButton
+                android:id="@+id/menu_home"
+                style="@style/RadioType"
+                android:drawableTop="@drawable/home_selector"
+                android:drawablePadding = "@dimen/menu_drawpadding"
+                android:text="首页" />
+
+            <RadioButton
+                android:id="@+id/menu_classify"
+                style="@style/RadioType"
+                android:drawableTop="@drawable/classify_selector"
+                android:drawablePadding = "@dimen/menu_drawpadding"
+                android:text="分类" />
+
+            <RadioButton
+                android:id="@+id/menu_shopcar"
+                style="@style/RadioType"
+                android:drawableTop="@drawable/where_selector"
+                android:drawablePadding = "@dimen/menu_drawpadding"
+                android:text="购物车" />
+
+            <RadioButton
+                android:id="@+id/menu_personal"
+                style="@style/RadioType"
+                android:drawableTop="@drawable/personal_selector"
+                android:drawablePadding = "@dimen/menu_drawpadding"
+                android:text="我的" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <!-- 头部 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_navigation" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent" >
+            </FrameLayout>
+
+            <!-- 页面指示器 -->
+
+
+            <!-- 页面指示器 -->
+
+
+            <!--
+            <com.viewpagerindicator.TabPageIndicator
+                android:id="@+id/id_indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" >
+            </com.viewpagerindicator.TabPageIndicator>
+            -->
+            <!-- ViewPage内容 -->
+
+
+            <!--
+            <android.support.v4.view.ViewPager
+                android:id="@+id/id_viewpager"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </android.support.v4.view.ViewPager>
+            -->
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

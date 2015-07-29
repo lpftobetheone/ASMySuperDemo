@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:background="@color/red">
+
+    <LinearLayout
+        android:id="@+id/id_search_back"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/top_back_click"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/btn_search_back"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@null"
+            android:clickable="false"
+            android:src="@drawable/arrows_back" >
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_search_text"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/top_back_click"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="搜索"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <com.lpf.mysuperdemo.views.ClearEditText
+        android:id="@+id/et_search"
+        style="?android:attr/textViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_toLeftOf="@id/id_search_text"
+        android:layout_toRightOf="@id/id_search_back"
+        android:drawableLeft="@drawable/search_button"
+        android:drawableRight="@drawable/search_delete"
+        android:drawablePadding="10dp"
+        android:hint="@string/et_search"
+        android:background="@drawable/search_text_shape"
+        android:singleLine="true" >
+    </com.lpf.mysuperdemo.views.ClearEditText>
+
+</RelativeLayout>

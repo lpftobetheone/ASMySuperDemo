@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array android:id="@+id/stringarray1" name="demonames">
+        <item>图片类</item>
+        <item>列表类</item>
+        <item>数据操作</item>
+        <item>网络状态</item>
+        <item>常用控件结合</item>
+        <item>页面框架布局</item>
+        <item>H5界面跳转</item>
+        <item>当前测试</item>
+    </string-array>
+
+    <!-- 图片类 -->
+    <string-array android:id="@+id/picture_demos" name="picture_demos">
+        <item>轮播图</item>
+        <item>水平滚动列表</item>
+        <item>图片列表ListView</item>
+        <item>图片GridView</item>
+    </string-array>
+
+    <!-- 数据操作类 -->
+    <string-array android:id="@+id/data_demos" name="data_demos">
+        <item>数据传递</item>
+        <item>从服务器下载数据到SdCard</item>
+        <item>SQLite数据库操作</item>
+    </string-array>
+
+    <!-- 网络状态 -->
+    <string-array android:id="@+id/net_demos" name="net_demos">
+        <item>网络监听</item>
+        <item>下载数据</item>
+    </string-array>
+
+    <!-- 自定义控件 -->
+    <string-array android:id="@+id/custom_demos" name="custom_demos">
+        <item>自定义带删除按钮的editText</item>
+        <item>自定义弹出对话框Activity</item>
+        <item>ListView结合RadioButton</item>
+        <item>扫描二维码</item>
+        <item>ListView动态加载更多</item>
+        <item>搜索列表</item>
+    </string-array>
+    
+    <!-- 布局框架-->
+    <string-array android:id="@+id/frameDemos" name="frame_demos">
+        <item>SlidingMenu菜单</item>
+        <item>底部RadioButton菜单</item>
+    </string-array>
+    
+    
+
+    <!-- 界面中用到的数据数组 -->
+    <string-array android:id="@+id/partner_style" name="partner_style">
+        <item>选择1</item>
+        <item>选择2</item>
+        <item>选择3</item>
+        <item>选择4</item>
+        <item>选择5</item>
+        <item>选择6</item>
+    </string-array>
+    
+    
+   <string-array name="category_name">
+         <item>选择1</item>
+        <item>选择2</item>
+        <item>选择3</item>
+        <item>选择4</item>
+        <item>选择5</item>
+        <item>选择6</item>
+    </string-array>
+    <string-array name="category_title">
+         <item>选择1</item>
+        <item>选择2</item>
+        <item>选择3</item>
+        <item>选择4</item>
+        <item>选择5</item>
+        <item>选择6</item>
+    </string-array>
+
+</resources>
