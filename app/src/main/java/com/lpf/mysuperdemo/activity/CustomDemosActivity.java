@@ -113,6 +113,11 @@ public class CustomDemosActivity extends Activity implements
 			intent.setClass(CustomDemosActivity.this, CustomSearchActivity.class);
 			startActivity(intent);
 			break;
+		//筛选页面
+		case 6:
+			intent.setClass(CustomDemosActivity.this, CustomSearchBarActivity.class);
+			startActivity(intent);
+			break;
 			
 		}
 

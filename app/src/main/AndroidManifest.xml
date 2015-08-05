@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lpf.mysuperdemo" >
 
-   <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    
+
     <!-- 扫描二维码start -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
@@ -14,8 +14,8 @@
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
-    <!-- 扫描二维码end -->
 
+    <!-- 扫描二维码end -->
     <application
         android:name=".MainApplication"
         android:allowBackup="true"
@@ -31,26 +31,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.lpf.mysuperdemo.activity.TestInterface"
-            android:screenOrientation="portrait" />
 
         <!-- 公共WebClient类 -->
         <activity
-            android:name="com.lpf.mysuperdemo.activity.CommonWebClientActivity"
+            android:name=".activity.CommonWebClientActivity"
             android:screenOrientation="portrait" />
 
         <!-- ****************图片类 start**************** -->
         <activity
-            android:name="com.lpf.mysuperdemo.activity.PictureDemosActivity"
+            android:name=".activity.PictureDemosActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.lpf.mysuperdemo.activity.HorizontalListViewActivity"
+            android:name=".activity.HorizontalListViewActivity"
             android:screenOrientation="portrait" />
 
         <!-- 图片轮播 -->
         <activity
-            android:name="com.lpf.mysuperdemo.activity.AutoPlayViewPagerActivity"
+            android:name=".activity.AutoPlayViewPagerActivity"
             android:screenOrientation="portrait" />
         <!-- ****************图片类 end**************** -->
 
@@ -58,24 +55,24 @@
         <!-- ****************数据操作类  start**************** -->
         <!-- 数据操作类 -->
         <activity
-            android:name="com.lpf.mysuperdemo.activity.DataDemosActivity"
+            android:name=".activity.DataDemosActivity"
             android:screenOrientation="portrait" />
         <!-- 请求数据 -->
         <activity
-            android:name="com.lpf.mysuperdemo.activity.RequestForDataActivity"
+            android:name=".activity.RequestForDataActivity"
             android:screenOrientation="portrait" />
 
         <!-- 发送数据 -->
         <activity
-            android:name="com.lpf.mysuperdemo.activity.ResponseForDataActivity"
+            android:name=".activity.ResponseForDataActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.lpf.mysuperdemo.activity.DataFileDownLoadActivity"
+            android:name=".activity.DataFileDownLoadActivity"
             android:screenOrientation="portrait" />
-        
+
         <!-- 数据库操作 -->
         <activity
-            android:name="com.lpf.mysuperdemo.activity.DataDbActivity"
+            android:name=".activity.DataDbActivity"
             android:screenOrientation="portrait" />
         <!-- ****************数据操作类  end**************** -->
 
@@ -83,7 +80,7 @@
         <!-- ****************网络操作类 start**************** -->
         <!-- 网络监听 -->
         <activity
-            android:name="com.lpf.mysuperdemo.activity.NetChangeActivity"
+            android:name=".activity.NetChangeActivity"
             android:screenOrientation="portrait" />
         <!-- ****************网络操作类 end**************** -->
 
@@ -93,76 +90,82 @@
 
         <!-- 自定义控件DemoList -->
         <activity
-            android:name="com.lpf.mysuperdemo.activity.CustomDemosActivity"
+            android:name=".activity.CustomDemosActivity"
             android:screenOrientation="portrait" />
         <!-- 自定义带有删除按钮的editText -->
         <activity
-            android:name="com.lpf.mysuperdemo.activity.CustomDeleteEditTextActivity"
+            android:name=".activity.CustomDeleteEditTextActivity"
             android:screenOrientation="portrait" />
 
         <!-- 自定义弹出对话框 -->
         <activity
-            android:name="com.lpf.mysuperdemo.activity.CustomDialogActivity"
+            android:name=".activity.CustomDialogActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.lpf.mysuperdemo.activity.CustomDialogShowActivity"
+            android:name=".activity.CustomDialogShowActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MyDialogTopRight" />
         <activity
-            android:name="com.lpf.mysuperdemo.activity.CustomWidgetActivity"
-            android:screenOrientation="portrait" />
-        
-        <!-- ListView结合RatioButton选择 -->
-         <activity
-            android:name="com.lpf.mysuperdemo.activity.PartnerActivity"
-            android:screenOrientation="portrait" />
-        <!-- 扫描二维码-->
-        <activity
-            android:name="com.lpf.mysuperdemo.activity.CaptureActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.lpf.mysuperdemo.qrcode.ResultActivity"
-            android:screenOrientation="portrait" />
-        
-        <!-- listView加载更多 -->
-        <activity
-            android:name="com.lpf.mysuperdemo.activity.CustomListViewLoadMoreActivity"
-            android:screenOrientation="portrait" />
-        
-        <!-- 搜索列表页面 -->
-        <activity
-            android:name="com.lpf.mysuperdemo.activity.CustomSearchActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.lpf.mysuperdemo.activity.CustomSearchResultActivity"
+            android:name=".activity.CustomWidgetActivity"
             android:screenOrientation="portrait" />
 
+        <!-- ListView结合RatioButton选择 -->
+        <activity
+            android:name=".activity.PartnerActivity"
+            android:screenOrientation="portrait" />
+        <!-- 扫描二维码 -->
+        <activity
+            android:name=".activity.CaptureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".qrcode.ResultActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- listView加载更多 -->
+        <activity
+            android:name=".activity.CustomListViewLoadMoreActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 搜索列表页面 -->
+        <activity
+            android:name=".activity.CustomSearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CustomSearchResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CustomSearchBarActivity"
+            android:label="@string/title_activity_custom_search_bar" >
+        </activity>
+
         <!-- ****************自定义控件end**************** -->
-        
+
+
         <!-- ****************框架布局start**************** -->
-         <activity
-            android:name="com.lpf.mysuperdemo.activity.FrameDemosActivity"
+        <activity
+            android:name=".activity.FrameDemosActivity"
             android:screenOrientation="portrait" />
-         <activity
-            android:name="com.lpf.mysuperdemo.activity.FrameSlidingMenuActivity"
+        <activity
+            android:name=".activity.FrameSlidingMenuActivity"
             android:screenOrientation="portrait" />
-          <activity
-            android:name="com.lpf.mysuperdemo.activity.FrameRadioGroupActivity"
+        <activity
+            android:name=".activity.FrameRadioGroupActivity"
             android:screenOrientation="portrait" />
         <!-- ****************框架布局end**************** -->
-        
-        <!-- ****************H5相关操作 start****************-->
-         <activity
-            android:name="com.lpf.mysuperdemo.activity.H5BackToNativeActivity"
+
+
+        <!-- ****************H5相关操作 start**************** -->
+        <activity
+            android:name=".activity.H5BackToNativeActivity"
             android:screenOrientation="portrait" />
-        <!-- ****************H5相关操作 end****************-->
+        <!-- ****************H5相关操作 end**************** -->
 
 
         <!-- 当前测试 -->
         <activity
-            android:name="com.lpf.mysuperdemo.activity.Test"
+            android:name=".activity.Test"
             android:screenOrientation="portrait" />
-        
+
     </application>
 
 </manifest>

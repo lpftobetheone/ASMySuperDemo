@@ -21,5 +21,6 @@
     <string name="search_is_null">搜索内容不能空</string>
     <string name="clearHistory">清除记录</string>
     <string name="custom_delete_edittext">自定义输入内容框</string>
+    <string name="title_activity_custom_search_bar">CustomSearchBarActivity</string>
 
 </resources>
