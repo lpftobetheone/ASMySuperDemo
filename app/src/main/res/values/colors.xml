@@ -293,12 +293,13 @@
     <!-- 海军色 -->
     <color name="black">#000000</color>
     <!-- 黑色 -->
- 	<color name="grey_text">#818181</color>
- 	
- 	<color name="dark_gray">#202020</color>
+    <color name="grey_text">#818181</color>
+
+    <color name="dark_gray">#202020</color>
 
 
-    <color name="translucent">#0000</color><!-- 全透明色 -->
+    <color name="translucent">#0000</color>
+    <!-- 全透明色 -->
     <color name="black_desc">#b2b2b2</color>
     <color name="black_list_desc">#999999</color>
     <color name="black_menu">#808080</color>
@@ -312,26 +313,29 @@
     <color name="product_name_color">#9C9C9C</color>
     <color name="transparent">#00000000</color>
     <color name="product_list_divider_color">#e8e8e8</color>
-        
+
     <color name="holo_light_gray">#f7f7f7</color>
-     <!-- 购物车北京 -->
-	<color name="account_background">#CC708090</color>
-	
-	<color name="personal_background">#e8e8e8</color>
-   <color name="tv_about">#434343</color>
-	<color name="tv_version">#a0a0a0</color>
-	<color name="about_top_bg">#f5f5f5</color>
-	<color name="header_bg">#d22817</color>
-	<color name="personal_line">#c0c0c0</color>
+    <!-- 购物车北京 -->
+    <color name="account_background">#CC708090</color>
+
+    <color name="personal_background">#e8e8e8</color>
+    <color name="tv_about">#434343</color>
+    <color name="tv_version">#a0a0a0</color>
+    <color name="about_top_bg">#f5f5f5</color>
+    <color name="header_bg">#d22817</color>
+    <color name="personal_line">#c0c0c0</color>
 
 
-	<!-- 相机需要的颜色 -->
-	<color name="result_view">#b0000000</color>
-      <color name="viewfinder_mask">#60000000</color>
-      <color name="possible_result_points">#c0ffff00</color> 
-      
-      <color name="persional_select">#e9e9e9</color>
-      <color name="persional_top_bg">#f5f5f4</color>
-      
-      <color name="search_text">#AFAFAF</color>
+    <!-- 相机需要的颜色 -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="persional_select">#e9e9e9</color>
+    <color name="persional_top_bg">#f5f5f4</color>
+
+    <color name="search_text">#AFAFAF</color>
+
+    <color name="item_state_selected">#AAff0000</color>
+    <color name="item_state_normal">#44ff0000</color>
 </resources>

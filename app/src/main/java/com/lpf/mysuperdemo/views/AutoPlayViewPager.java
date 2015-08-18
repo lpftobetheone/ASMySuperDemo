@@ -1,8 +1,5 @@
 package com.lpf.mysuperdemo.views;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
@@ -27,6 +24,9 @@ import com.lpf.mysuperdemo.activity.CommonWebClientActivity;
 import com.lpf.mysuperdemo.bean.ScrollPicture;
 import com.lpf.mysuperdemo.util.ImageUtil;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 图片轮播模块
  * @author liupf5
@@ -38,13 +38,10 @@ public class AutoPlayViewPager extends FrameLayout {
 	private List<ScrollPicture> mScrollPictureList;
 	private List<ImageView> mImageViewsList;
 	private List<View> mDotViewsList;
-	// private ViewPager mViewPager;
 	private ViewPager mViewPager;
 	private int currentItem = 0;
 
 	private Context mContext;
-	// SlideShowTask mSlideShowTask = new SlideShowTask();
-
 	/**
 	 * 请求更新显示的View。
 	 */
@@ -173,8 +170,6 @@ public class AutoPlayViewPager extends FrameLayout {
 			ImageView view = new ImageView(mContext);
 			view.setBackgroundResource(R.drawable.default_img1);
 			view.setScaleType(ScaleType.FIT_XY);
-			// ImageUtil.DisplayImage(view.getTag() + "", view);
-			// mImageViewsList.add(view);
 			mViewPager.setCurrentItem(0);
 		}
 	}

@@ -28,4 +28,5 @@ dependencies {
     compile files('libs/universal-image-loader-1.9.3.jar')
     compile files('libs/zxing.jar')
     compile files('D:/Workspaces/AndroidStudioWorkSpace0714/AsMySuperDemo/.idea/libraries/Volley.jar')
+    compile 'com.android.support:recyclerview-v7:22.2.0'
 }

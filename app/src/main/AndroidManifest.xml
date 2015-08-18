@@ -165,7 +165,10 @@
         <activity
             android:name=".activity.Test"
             android:screenOrientation="portrait" />
-
+        <activity
+            android:name=".recyclerviewdemo.RecyclerViewDemo"
+            android:label="@string/title_activity_recycler_view_demo" >
+        </activity>
     </application>
 
 </manifest>
