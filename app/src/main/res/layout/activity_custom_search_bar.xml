@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/id_top_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/id_layout_mulitple"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/id_btn_mulitple"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:paddingLeft="20dp"
+                android:layout_alignParentLeft="true"
+                android:text="综合"/>
+
+            <ImageView
+                android:id="@+id/id_img_multiple"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingRight="10dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/arrows_up"/>
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/id_btn_sale"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="销量"/>
+
+        <Button
+            android:id="@+id/id_btn_price"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="价格"/>
+
+        <Button
+            android:id="@+id/id_btn_selector"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="筛选"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/id_frame_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id_top_selector">
+
+        <ListView
+            android:id="@+id/id_product_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/id_show_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_top_selector"
+        android:visibility="gone"
+        android:background="@color/white">
+        <ListView
+            android:id="@+id/id_multiple_list"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+        </ListView>
+    </RelativeLayout>
+
+        <!--<RelativeLayout
+            android:id="@+id/id_show_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/mask"/>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>-->
+
+
+
+</RelativeLayout>

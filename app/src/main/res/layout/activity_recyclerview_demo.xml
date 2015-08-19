@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.lpf.mysuperdemo.recyclerviewdemo.RecyclerViewDemo">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyclerView_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/id_recyclerView"/>
+
+</RelativeLayout>
