@@ -169,6 +169,10 @@
             android:name=".recyclerviewdemo.RecyclerViewDemo"
             android:label="@string/title_activity_recycler_view_demo" >
         </activity>
+        <activity
+            android:name=".activity.HorizontalRecyclerViewActivity"
+            android:label="@string/title_activity_horizontal_recycler_view" >
+        </activity>
     </application>
 
 </manifest>

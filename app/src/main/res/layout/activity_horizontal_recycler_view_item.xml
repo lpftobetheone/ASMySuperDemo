@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/id_hor_recyclerview_img"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/default_img"/>
+
+    <TextView
+        android:id="@+id/id_hor_recyclerview_tv"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/id_hor_recyclerview_img"
+        android:text="测试"
+        android:gravity="center"
+        android:layout_marginTop="-30dp"
+        android:background="#a7fff7"
+        android:alpha="0.7"/>
+
+</RelativeLayout>

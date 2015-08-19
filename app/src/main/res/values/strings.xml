@@ -23,5 +23,6 @@
     <string name="custom_delete_edittext">自定义输入内容框</string>
     <string name="title_activity_custom_search_bar">CustomSearchBarActivity</string>
     <string name="title_activity_recycler_view_demo">RecyclerViewDemo</string>
+    <string name="title_activity_horizontal_recycler_view">HorizontalRecyclerViewActivity</string>
 
 </resources>

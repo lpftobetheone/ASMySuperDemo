@@ -16,6 +16,7 @@
     <string-array android:id="@+id/picture_demos" name="picture_demos">
         <item>轮播图</item>
         <item>水平滚动列表</item>
+        <item>水平滚动列表RecyclerView</item>
         <item>图片列表ListView</item>
         <item>图片GridView</item>
     </string-array>
