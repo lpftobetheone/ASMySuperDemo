@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lpf.mysuperdemo" >
+    package="com.lpf.mysuperdemo"
+    android:versionCode="2"
+    android:versionName="1.1">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -136,6 +138,15 @@
         <activity
             android:name=".activity.CustomSearchBarActivity"
             android:label="@string/title_activity_custom_search_bar" >
+        </activity>
+
+        <activity
+            android:name=".splash_welcome.SplashActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".splash_welcome.WelcomeActivity"
+            android:screenOrientation="portrait" >
         </activity>
 
         <!-- ****************自定义控件end**************** -->

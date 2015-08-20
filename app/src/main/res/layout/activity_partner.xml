@@ -20,7 +20,7 @@
             android:layout_width="250dp"
             android:layout_height="45dp"
             android:layout_gravity="center"
-            android:background="@drawable/partner_apply_btn"
+            android:background="@drawable/btn_shape_red"
             android:text="提交申请"
             android:textColor="#FFFFFF"
             android:textSize="16sp" />

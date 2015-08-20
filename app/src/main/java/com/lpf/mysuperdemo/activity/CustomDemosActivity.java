@@ -15,6 +15,7 @@ import android.widget.ListView;
 
 import com.lpf.mysuperdemo.R;
 import com.lpf.mysuperdemo.recyclerviewdemo.RecyclerViewDemo;
+import com.lpf.mysuperdemo.splash_welcome.SplashActivity;
 
 /**
  * @Title:
@@ -122,6 +123,10 @@ public class CustomDemosActivity extends Activity implements
             //RecyclerViewDemo
             case 7:
                 intent.setClass(CustomDemosActivity.this, RecyclerViewDemo.class);
+                startActivity(intent);
+                break;
+            case 8:
+                intent.setClass(CustomDemosActivity.this, SplashActivity.class);
                 startActivity(intent);
                 break;
 

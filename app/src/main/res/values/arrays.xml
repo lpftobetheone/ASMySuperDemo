@@ -44,6 +44,7 @@
         <item>搜索列表</item>
         <item>筛选界面</item>
         <item>RecyclerViewDemo</item>
+        <item>启动界面</item>
     </string-array>
     
     <!-- 布局框架-->
