@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lpf.mysuperdemo"
     android:versionCode="2"
-    android:versionName="1.1">
+    android:versionName="1.1" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -139,7 +139,6 @@
             android:name=".activity.CustomSearchBarActivity"
             android:label="@string/title_activity_custom_search_bar" >
         </activity>
-
         <activity
             android:name=".splash_welcome.SplashActivity"
             android:screenOrientation="portrait" >
@@ -184,6 +183,16 @@
             android:name=".activity.HorizontalRecyclerViewActivity"
             android:label="@string/title_activity_horizontal_recycler_view" >
         </activity>
+        <activity
+            android:name=".daojishi.DaojishiActivity"
+            android:label="@string/title_activity_daojishi" >
+        </activity>
+
+        <service
+            android:name=".daojishi.Daojishiservice"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
     </application>
 
 </manifest>
