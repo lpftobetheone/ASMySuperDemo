@@ -27,6 +27,7 @@
         <item>从服务器下载数据到SdCard</item>
         <item>SQLite数据库操作</item>
         <item>ServiceDemo</item>
+        <item>BroadCastReceiverDemo</item>
     </string-array>
 
     <!-- 网络状态 -->

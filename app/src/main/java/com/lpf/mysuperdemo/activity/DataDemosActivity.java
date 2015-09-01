@@ -14,6 +14,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.lpf.mysuperdemo.R;
+import com.lpf.mysuperdemo.broadcastreceiver.MyBCRActivity;
 import com.lpf.mysuperdemo.daojishi.DaojishiActivity;
 
 /**
@@ -100,6 +101,11 @@ public class DataDemosActivity extends Activity implements OnItemClickListener {
             //绑定Service操作
             case 3:
                 intent.setClass(DataDemosActivity.this, DaojishiActivity.class);
+                startActivity(intent);
+                break;
+            //绑定BroadCastReceiver操作
+            case 4:
+                intent.setClass(DataDemosActivity.this, MyBCRActivity.class);
                 startActivity(intent);
                 break;
         }

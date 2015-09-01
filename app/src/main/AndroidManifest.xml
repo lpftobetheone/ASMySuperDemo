@@ -193,6 +193,17 @@
             android:enabled="true"
             android:exported="true" >
         </service>
+
+<!--        <receiver
+            android:name=".broadcastreceiver.MyReceiver"
+            android:enabled="true"
+            android:exported="true" >
+        </receiver>-->
+
+        <activity
+            android:name=".broadcastreceiver.MyBCRActivity"
+            android:label="@string/title_activity_my_bcr" >
+        </activity>
     </application>
 
 </manifest>
