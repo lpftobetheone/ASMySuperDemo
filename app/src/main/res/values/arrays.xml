@@ -28,6 +28,7 @@
         <item>SQLite数据库操作</item>
         <item>ServiceDemo</item>
         <item>BroadCastReceiverDemo</item>
+        <item>ContentProviderDemo</item>
     </string-array>
 
     <!-- 网络状态 -->
@@ -47,6 +48,7 @@
         <item>筛选界面</item>
         <item>RecyclerViewDemo</item>
         <item>启动界面</item>
+        <item>自定义View</item>
     </string-array>
     
     <!-- 布局框架-->

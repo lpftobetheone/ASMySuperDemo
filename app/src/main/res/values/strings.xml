@@ -26,5 +26,7 @@
     <string name="title_activity_horizontal_recycler_view">HorizontalRecyclerViewActivity</string>
     <string name="title_activity_daojishi">DaojishiActivity</string>
     <string name="title_activity_my_bcr">MyBCRActivity</string>
+    <string name="title_activity_my_content_provider">MyContentProviderActivity</string>
+    <string name="title_activity_custom_view">CustomViewActivity</string>
 
 </resources>

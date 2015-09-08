@@ -5,6 +5,7 @@
 package com.lpf.mysuperdemo.activity;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -30,6 +31,8 @@ public class CustomDemosActivity extends Activity implements
     private ListView mListView;
     private ArrayAdapter mAdapter;
     private String[] mListItem = new String[]{};
+    
+    private Context mContext;
 
     /*
      * (non-Javadoc)
@@ -41,6 +44,8 @@ public class CustomDemosActivity extends Activity implements
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_common_listdemos);
+
+        mContext = this;
 
         initViews();
 
@@ -85,52 +90,46 @@ public class CustomDemosActivity extends Activity implements
         switch (position) {
             // 自定义带删除按钮的输入框
             case 0:
-                intent.setClass(CustomDemosActivity.this,
+                intent.setClass(mContext,
                         CustomDeleteEditTextActivity.class);
-                startActivity(intent);
                 break;
             // 自定义带删除按钮的输入框
             case 1:
-                intent.setClass(CustomDemosActivity.this,
+                intent.setClass(mContext,
                         CustomDialogActivity.class);
-                startActivity(intent);
                 break;
             // ListView结合RadioButton
             case 2:
-                intent.setClass(CustomDemosActivity.this, PartnerActivity.class);
-                startActivity(intent);
+                intent.setClass(mContext, PartnerActivity.class);
                 break;
             // 扫描二维码
             case 3:
-                intent.setClass(CustomDemosActivity.this, CaptureActivity.class);
-                startActivity(intent);
+                intent.setClass(mContext, CaptureActivity.class);
                 break;
             // ListView加载更多
             case 4:
-                intent.setClass(CustomDemosActivity.this, CustomListViewLoadMoreActivity.class);
-                startActivity(intent);
+                intent.setClass(mContext, CustomListViewLoadMoreActivity.class);
                 break;
             //搜索列表
             case 5:
-                intent.setClass(CustomDemosActivity.this, CustomSearchActivity.class);
-                startActivity(intent);
+                intent.setClass(mContext, CustomSearchActivity.class);
                 break;
             //筛选页面
             case 6:
-                intent.setClass(CustomDemosActivity.this, CustomSearchBarActivity.class);
-                startActivity(intent);
+                intent.setClass(mContext, CustomSearchBarActivity.class);
                 break;
             //RecyclerViewDemo
             case 7:
-                intent.setClass(CustomDemosActivity.this, RecyclerViewDemo.class);
-                startActivity(intent);
+                intent.setClass(mContext, RecyclerViewDemo.class);
                 break;
+            //启动页
             case 8:
-                intent.setClass(CustomDemosActivity.this, SplashActivity.class);
-                startActivity(intent);
+                intent.setClass(mContext, SplashActivity.class);
                 break;
-
+            case 9:
+                intent.setClass(mContext, CustomViewActivity.class);
+                break;
         }
-
+        startActivity(intent);
     }
 }
