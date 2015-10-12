@@ -28,5 +28,6 @@
     <string name="title_activity_my_bcr">MyBCRActivity</string>
     <string name="title_activity_my_content_provider">MyContentProviderActivity</string>
     <string name="title_activity_custom_view">CustomViewActivity</string>
+    <string name="title_activity_calendar_demo">CalendarDemoActivity</string>
 
 </resources>

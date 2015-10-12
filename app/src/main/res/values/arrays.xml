@@ -49,6 +49,7 @@
         <item>RecyclerViewDemo</item>
         <item>启动界面</item>
         <item>自定义View</item>
+        <item>日历时间</item>
     </string-array>
     
     <!-- 布局框架-->

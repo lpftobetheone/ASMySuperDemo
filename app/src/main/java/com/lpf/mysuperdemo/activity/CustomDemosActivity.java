@@ -126,8 +126,12 @@ public class CustomDemosActivity extends Activity implements
             case 8:
                 intent.setClass(mContext, SplashActivity.class);
                 break;
+            //自定义View
             case 9:
                 intent.setClass(mContext, CustomViewActivity.class);
+                break;
+            case 10:
+                intent.setClass(mContext, CalendarDemoActivity.class);
                 break;
         }
         startActivity(intent);

@@ -215,6 +215,10 @@
             android:name=".activity.CustomViewActivity"
             android:label="@string/title_activity_custom_view" >
         </activity>
+        <activity
+            android:name=".activity.CalendarDemoActivity"
+            android:label="@string/title_activity_calendar_demo" >
+        </activity>
     </application>
 
 </manifest>
