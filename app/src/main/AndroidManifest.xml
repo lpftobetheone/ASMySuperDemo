@@ -162,6 +162,9 @@
         <activity
             android:name=".activity.FrameRadioGroupActivity"
             android:screenOrientation="portrait" />
+
+        <activity android:name=".welcomepager.WelcomePagerActivity"
+            android:screenOrientation="portrait"/>
         <!-- ****************框架布局end**************** -->
 
 
