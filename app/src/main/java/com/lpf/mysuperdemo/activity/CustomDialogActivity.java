@@ -9,8 +9,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.lpf.mysuperdemo.R;
-
 
 /**
  *@Title:
@@ -28,7 +26,7 @@ public class CustomDialogActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_custom_dialog);
+//		setContentView(R.layout.activity_custom_dialog);
 	}
 	
 	public void functionKey(View view)

@@ -4,8 +4,6 @@
  */
 package com.lpf.mysuperdemo.activity;
 
-import com.lpf.mysuperdemo.R;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -28,7 +26,7 @@ public class CustomDialogShowActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_custom_dialog_show);
+//		setContentView(R.layout.activity_custom_dialog_show);
 	}
 
 	@Override
